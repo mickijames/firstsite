@@ -1,0 +1,72 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+/* Color Palette */
+.color-1 {
+    background: #1b0602;
+}
+.color-2 {
+    background: #385a65;
+}
+.color-3 {
+    background: #816565;
+}
+.color-4 {
+    background: #ed852d;
+}
+.color-5 {
+    background: #f7d26d;
+}
+
+/* Textures or Patterns*/
+.pattern-1 {
+    background: url(../img/fresh_snow.png);
+}
+.pattern-2 {
+    background: url(../img/concrete_seamless.png);
+}
+.pattern-3 {
+    background: url(../img/footer_lodyas.png);
+}
+.pattern-4 {
+    background: url(../img/dark_wall.png);
+}
+.pattern-5 {
+    background: url(../img/dark_wood.png);
+}
+
+
+/* Imagery */
+
+
+/* Icons */
+
+
+/* Navigation */
+
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamondfamily=Gentium+Basicfamily=Great+Vibesfamily=Kaushan+Script');
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kaushan Script', cursive;
+*/
+
+
+a {
+    font-family: 'Gentium Basic', serif;
+}
+h2 { 
+    font-family: 'Courgette', cursive;
+}
+h1 {
+    
+}
+h3 {
+    font-family: 'Great Vibes', cursive;
+}
+p {
+    font-family: 'Cormorant Garamond', serif;
+}
