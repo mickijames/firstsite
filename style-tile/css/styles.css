@@ -38,7 +38,9 @@
 
 
 /* Imagery */
-
+img {
+    width: 25%;
+}
 
 /* Icons */
 
@@ -74,18 +76,41 @@ a {
     font-family: 'Gentium Basic', serif;
 }
 
-h2 { 
-    font-family: 'Courgette', cursive;
-    color: #ed852d;
-}
 h1 {
     font-family: 'Great Vibes', cursive;
     color: #385a65;
 }
+
+h2 { 
+    font-family: 'Courgette', cursive;
+    color: #ed852d;
+}
+
 h3 {
     font-family: 'Kaushan Script', cursive;
     color: #f7d26d;
 }
-p {
+
+h4 {
+    font-style: bold;
+    font-family: 'Gentium Basic', serif;
+    color: #1b0602;
+}
+
+li, p {
     font-family: 'Cormorant Garamond', serif;
+    color: #1b0602;
+}
+
+.jobs {
+    font-style: italic;
+}
+
+.dates {
+    font-style: italic;
+    text-align: right;
+}
+
+.contact {
+    word-spacing: 5px;
 }
