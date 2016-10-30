@@ -1,0 +1,116 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+/* Color Palette */
+.color-1 {
+    background: #1b0602;
+}
+.color-2 {
+    background: #385a65;
+}
+.color-3 {
+    background: #816565;
+}
+.color-4 {
+    background: #ed852d;
+}
+.color-5 {
+    background: #f7d26d;
+}
+
+/* Textures or Patterns*/
+.pattern-1 {
+    background: url(../img/fresh_snow.png);
+}
+.pattern-2 {
+    background: url(../img/concrete_seamless.png);
+}
+.pattern-3 {
+    background: url(../img/footer_lodyas.png);
+}
+.pattern-4 {
+    background: url(../img/dark_wall.png);
+}
+.pattern-5 {
+    background: url(../img/dark_wood.png);
+}
+
+
+/* Imagery */
+img {
+    width: 25%;
+}
+
+/* Icons */
+
+
+/* Navigation */
+a:link,
+a:visited {
+    color: #816565;
+}
+
+a:focus {
+    background: #ed852d;
+}
+
+a:hover {
+    background: #f7d26d;
+    margin-left: 4px;
+}
+
+a:active {
+    background: #385a65;
+}
+
+button {
+    background: #385a65;
+    color: #ed852d;
+}
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamondfamily=Gentium+Basicfamily=Great+Vibesfamily=Kaushan+Scriptfamily=Courgette');
+
+a {
+    font-family: 'Gentium Basic', serif;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #385a65;
+}
+
+h2 { 
+    font-family: 'Courgette', cursive;
+    color: #ed852d;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #f7d26d;
+}
+
+h4 {
+    font-style: bold;
+    font-family: 'Gentium Basic', serif;
+    color: #1b0602;
+}
+
+li, p {
+    font-family: 'Cormorant Garamond', serif;
+    color: #1b0602;
+}
+
+.jobs {
+    font-style: italic;
+}
+
+.dates {
+    font-style: italic;
+    text-align: right;
+}
+
+.contact {
+    word-spacing: 5px;
+}
