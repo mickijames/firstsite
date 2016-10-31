@@ -1,11 +1,99 @@
 body {
-  background: url(../style-tile/img/fresh_snow.png);
+    background: url(../style-tile/img/fresh_snow.png);
+    padding-left: 1em;
 }
 
+/* Imagery */
 img {
-  width: 50%;
+    width: 25%;
+}
+
+/* Icons */
+
+
+/* Navigation */
+a:link,
+a:visited {
+    color: #816565;
+}
+
+a:focus {
+    background: #ed852d;
+}
+
+a:hover {
+    background: #f7d26d;
+    margin-left: 4px;
+}
+
+a:active {
+    background: #385a65;
+}
+
+button {
+    background: #385a65;
+    color: #ed852d;
+}
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamondfamily=Gentium+Basicfamily=Great+Vibesfamily=Kaushan+Scriptfamily=Courgette');
+
+a {
+    font-family: 'Gentium Basic', serif;
+    font-size: 12px;
+    white-space: 30px
+}
+
+h1, h2, h3, h4 {
+    line-height: 1px;
+    padding-top: 5px;
 }
 
 h1 {
-  color: White;
+    font-family: 'Great Vibes', cursive;
+    color: #385a65;
+}
+
+h2 { 
+    font-family: 'Courgette', cursive;
+    color: #ed852d;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #f7d26d;
+}
+
+h4 {
+    font-style: bold;
+    font-family: 'Gentium Basic', serif;
+    color: #1b0602;
+}
+
+p {
+    padding-left: 1em;
+    font-family: 'Cormorant Garamond', serif;
+    color: #1b0602;
+    font-size: 14px;
+}
+
+li {
+    font-family: 'Cormorant Garamond', serif;
+    color: #1b0602;
+    font-size: 14px;
+}
+
+/*
+.jobs {
+    font-style: italic;
+*/
+}
+
+.dates {
+    font-style: italic;
+    text-align: right;
+}
+
+.contact {
+    word-spacing: 5px;
 }

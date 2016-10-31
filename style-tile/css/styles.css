@@ -38,9 +38,6 @@
 
 
 /* Imagery */
-img {
-    width: 25%;
-}
 
 /* Icons */
 
@@ -97,20 +94,7 @@ h4 {
     color: #1b0602;
 }
 
-li, p {
+p {
     font-family: 'Cormorant Garamond', serif;
     color: #1b0602;
-}
-
-.jobs {
-    font-style: italic;
-}
-
-.dates {
-    font-style: italic;
-    text-align: right;
-}
-
-.contact {
-    word-spacing: 5px;
 }
