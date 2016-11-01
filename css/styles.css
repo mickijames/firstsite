@@ -1,6 +1,7 @@
 body {
     background: url(../style-tile/img/fresh_snow.png);
     padding-left: 1em;
+    max-width: 45em;
 }
 
 /* Imagery */
@@ -70,7 +71,7 @@ h4 {
     color: #1b0602;
 }
 
-p {
+p, div {
     padding-left: 1em;
     font-family: 'Cormorant Garamond', serif;
     color: #1b0602;
@@ -83,17 +84,18 @@ li {
     font-size: 14px;
 }
 
-/*
-.jobs {
+
+.town, .jobs {
     font-style: italic;
-*/
+    padding: 0;
 }
 
-.dates {
+div {
     font-style: italic;
-    text-align: right;
+    float: right;
 }
 
 .contact {
     word-spacing: 5px;
+    padding: 0;
 }
