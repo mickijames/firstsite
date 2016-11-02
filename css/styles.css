@@ -1,7 +1,7 @@
 body {
     background: url(../style-tile/img/fresh_snow.png);
-    padding-left: 1em;
-    max-width: 45em;
+    padding: 2em;
+    max-width: 42em;
 }
 
 /* Imagery */
@@ -66,16 +66,21 @@ h3 {
 }
 
 h4 {
-    font-style: bold;
     font-family: 'Gentium Basic', serif;
     color: #1b0602;
+    margin-bottom: 0;
+    padding-left: 1em;
 }
 
-p, div {
-    padding-left: 1em;
+ul {
+    padding-left: 3em;
+}
+
+span, p {
     font-family: 'Cormorant Garamond', serif;
     color: #1b0602;
     font-size: 14px;
+    padding-left: 2em;
 }
 
 li {
@@ -84,13 +89,13 @@ li {
     font-size: 14px;
 }
 
-
 .town, .jobs {
     font-style: italic;
-    padding: 0;
+    padding-left: 1em;
+    margin-bottom: -10px;
 }
 
-div {
+span {
     font-style: italic;
     float: right;
 }
