@@ -1,40 +1,50 @@
 body {
     background: url(../style-tile/img/fresh_snow.png);
     padding: 2em;
-    max-width: 42em;
+    min-width: 26em;
+    max-width: 36em;
+}
+
+section {
+    padding: 1em 0;
+}
+
+footer {
+    text-align: center;
 }
 
 /* Imagery */
-img {
+.profile-pic {
+    height: auto;
     width: 25%;
 }
 
 /* Icons */
+.icon {
+    height: 12px;
+    width: 12px;
+    margin-right: 0;
+}
 
+img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
 
 /* Navigation */
-a:link,
-a:visited {
-    color: #816565;
-}
-
-a:focus {
-    background: #ed852d;
-}
-
-a:hover {
-    background: #f7d26d;
-    margin-left: 4px;
-}
-
-a:active {
-    background: #385a65;
-}
-
-button {
+/* Button style link to top of page
+a.top {
     background: #385a65;
     color: #ed852d;
+    padding: 6px;
+    text-decoration: none;
+    
+    position: fixed;
+    bottom: 2em;
+    left: 64em;
 }
+*/
 
 /* Typography */
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamondfamily=Gentium+Basicfamily=Great+Vibesfamily=Kaushan+Scriptfamily=Courgette');
@@ -42,17 +52,35 @@ button {
 a {
     font-family: 'Gentium Basic', serif;
     font-size: 12px;
-    white-space: 30px
+    padding: 3px;
+    margin: auto;
 }
 
+p {
+    font-family: 'Cormorant Garamond', serif;
+    color: #1b0602;
+    font-size: 14px;
+    padding-left: 2em;
+}
+
+span {
+    font-style: italic;
+    float: right;
+    display: inline;
+}
+
+/* Headings */
 h1, h2, h3, h4 {
     line-height: 1px;
     padding-top: 5px;
 }
 
 h1 {
-    font-family: 'Great Vibes', cursive;
     color: #385a65;
+    font-size: 40px;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    font-family: 'Great Vibes', cursive;
 }
 
 h2 { 
@@ -72,15 +100,9 @@ h4 {
     padding-left: 1em;
 }
 
+/* Lists */
 ul {
     padding-left: 3em;
-}
-
-span, p {
-    font-family: 'Cormorant Garamond', serif;
-    color: #1b0602;
-    font-size: 14px;
-    padding-left: 2em;
 }
 
 li {
@@ -89,15 +111,11 @@ li {
     font-size: 14px;
 }
 
+/* Classes */
 .town, .jobs {
     font-style: italic;
     padding-left: 1em;
     margin-bottom: -10px;
-}
-
-span {
-    font-style: italic;
-    float: right;
 }
 
 .contact {
