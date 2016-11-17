@@ -1,67 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamondfamily=Gentium+Basicfamily=Great+Vibesfamily=Kaushan+Scriptfamily=Courgette');
+
 body {
     background: url(../style-tile/img/fresh_snow.png);
-    padding: 2em;
-    min-width: 26em;
-    max-width: 36em;
+    align-content: center; 
+    padding: 1% 25%;
+    min-width: 24.6875em;
+}
+
+body p {
+    font-family: 'Cormorant Garamond', serif;
+    color: #1b0602;
+    font-size: 0.88em;
+    padding-left: 0;
+    margin: 1em 0;
+}
+
+.education {
+    padding-left: 1em;
+}
+
+.bio h2 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header.bio {
+    float: right;
+    display: inline;
 }
 
 section {
-    padding: 1em 0;
+    padding: .5em 0;
 }
 
-footer {
-    text-align: center;
+aside nav {
+    float: left;
+    margin-right: 1em;
+}
+
+aside a {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+aside img {
+    height: 2.25em;
+    width: 2.25em;
 }
 
 /* Imagery */
 .profile-pic {
     height: auto;
-    width: 25%;
+    float: left;
+    padding-right: 2%;
+    max-width: 8em;
 }
 
 /* Icons */
-.icon {
-    height: 12px;
-    width: 12px;
+/*12px / 16px = 0.75em*/
+footer .icon {
+    height: 0.8em;
+    width: 0.8em;
     margin-right: 0;
 }
 
-img {
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
+footer {
+    border-top: .1em black solid;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
 }
-
-/* Navigation */
-/* Button style link to top of page
-a.top {
-    background: #385a65;
-    color: #ed852d;
-    padding: 6px;
-    text-decoration: none;
-    
-    position: fixed;
-    bottom: 2em;
-    left: 64em;
-}
-*/
 
 /* Typography */
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamondfamily=Gentium+Basicfamily=Great+Vibesfamily=Kaushan+Scriptfamily=Courgette');
 
+/*12px / 16px = 0.75em*/
 a {
     font-family: 'Gentium Basic', serif;
-    font-size: 12px;
-    padding: 3px;
+    font-size: 0.75em;
+    padding: 0.1875em;
     margin: auto;
 }
 
-p {
-    font-family: 'Cormorant Garamond', serif;
-    color: #1b0602;
-    font-size: 14px;
-    padding-left: 2em;
-}
 
 span {
     font-style: italic;
@@ -71,21 +93,27 @@ span {
 
 /* Headings */
 h1, h2, h3, h4 {
-    line-height: 1px;
-    padding-top: 5px;
+    line-height: 25%;
+    margin-top: 1%;
 }
 
 h1 {
     color: #385a65;
-    font-size: 40px;
-    margin-top: 24px;
-    margin-bottom: 25px;
+    font-size: 2.5em;
+    margin-top: 4%;
+    margin-bottom: 3%;
     font-family: 'Great Vibes', cursive;
 }
 
 h2 { 
     font-family: 'Courgette', cursive;
     color: #ed852d;
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+h2.skills {
+    padding-bottom: 0;
 }
 
 h3 {
@@ -97,28 +125,90 @@ h4 {
     font-family: 'Gentium Basic', serif;
     color: #1b0602;
     margin-bottom: 0;
-    padding-left: 1em;
+    padding-top: 1%;
 }
 
 /* Lists */
 ul {
-    padding-left: 3em;
+    padding-left: 2em;
 }
 
 li {
     font-family: 'Cormorant Garamond', serif;
     color: #1b0602;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 /* Classes */
 .town, .jobs {
     font-style: italic;
-    padding-left: 1em;
-    margin-bottom: -10px;
+    padding-left: 0;
+    margin-bottom: -0.625em;
 }
 
 .contact {
-    word-spacing: 5px;
+    word-spacing: 0.3125em;
     padding: 0;
+}
+
+
+/* Navigation */
+header aside {
+    position: fixed;
+}
+
+header aside nav {
+    position: relative;
+    top: 0;
+    left: -4em;
+}
+
+/* Desktop */
+@media screen and ( min-width: 64em ) {
+
+    body {
+        max-width: 65%;
+    }
+    
+    .tablet,
+    .mobile {
+        display: none;
+    }
+
+}
+
+/* Tablet */
+@media screen and ( max-width: 64em ) {
+
+    body {
+        padding: 1% 15%;
+    }
+    
+    .desktop,
+    .mobile {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+}
+
+/* Mobile */
+@media screen and ( max-width: 30em ) {
+
+    body {
+        padding: 1% 5%; */
+    }
+
+    .desktop,
+    .tablet {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
 }
