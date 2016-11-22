@@ -4,7 +4,7 @@ body {
     background: url(../style-tile/img/fresh_snow.png);
     align-content: center; 
     padding: 1% 25%;
-    min-width: 24.6875em;
+/*    min-width: 24.6875em;*/
 }
 
 body p {
@@ -199,7 +199,7 @@ header aside nav {
 @media screen and ( max-width: 30em ) {
 
     body {
-        padding: 1% 5%; */
+        padding: 1% 5%;
     }
 
     .desktop,
