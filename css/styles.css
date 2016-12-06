@@ -261,6 +261,7 @@ figure p {
 .contact div p {
     color: #fff;
     text-align: left;
+    padding-left: 0;
     padding-bottom: .5em;
 }
 
@@ -347,6 +348,10 @@ textarea:hover {
     .contact main div {
         padding: 0em;
         width: 12em;
+    }
+    
+    .profile-pic:hover {
+        transform: none;
     }
     
     .desktop,
