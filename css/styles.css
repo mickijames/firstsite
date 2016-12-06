@@ -366,6 +366,11 @@ textarea:hover {
 
     body {
         padding: 0 5%;
+        font-size: 1em;
+    }
+    
+    .contact main div {
+        width: 14em;
     }
     
     header div {
@@ -376,7 +381,7 @@ textarea:hover {
         position: relative;
         flex-direction: row;
         padding: 0 3.125em;
-        font-size: 0.1em;
+        font-size: 1em;
     }
     
     h4 {
