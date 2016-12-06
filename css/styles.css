@@ -1,30 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Courgette|Gentium+Basic|Great+Vibes|Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Dosis|Gentium+Basic|Great+Vibes|Kaushan+Script');
 
 .about header div {
-    background: 
-        linear-gradient(rgba(56, 90, 101, 0.81),  rgba(0, 0, 0, 0) 79%), 
-        linear-gradient(0deg, rgb(243, 243, 243), rgba(0, 0, 0, 0) 50%), 
-        url(../img/guitar.jpg) center / cover;
-}
-
-.homepage header div {
-    background: 
-        linear-gradient(rgba(129, 101, 101, 0.85), rgba(0, 0, 0, 0) 79%), 
-        linear-gradient(0deg, rgb(243, 243, 243), rgba(0, 0, 0, 0) 50%), 
-        url(../img/mount-rainier-at-sunset-cloud-fire-by-alan-howe.jpg) center / cover;
+    background: url(../img/mount-rainier-at-sunset-cloud-fire-by-alan-howe.jpg) center / cover;
 }
 .portfolio header div {
-    background: 
-        linear-gradient(rgba(56, 90, 101, 0.81), rgba(0, 0, 0, 0) 79%), 
-        linear-gradient(0deg, rgb(243, 243, 243), rgba(0, 0, 0, 0) 50%), 
-        url(../img/dreamcatcher.jpg) center / cover;
+    background: url(../img/dreamcatcher.jpg) center / cover;
 }
 
 .contact header div {
-    background: 
-        linear-gradient(rgba(56, 90, 101, 0.81), rgba(0, 0, 0, 0) 79%), 
-        linear-gradient(0deg, rgb(243, 243, 243), rgba(0, 0, 0, 0) 50%), 
-        url(../img/friendship.jpg) center / cover;
+    background: url(../img/friendship.jpg) center / cover;
 }
 
 header {
@@ -42,16 +26,16 @@ header div {
 }
 
 body {
-    background: url(../style-tile/img/fresh_snow.png);
+    background: url(../img/dark_wood.png);
     align-content: center; 
     padding: 1% 25%;
 }
 
 body p {
     font-family: 'Cormorant Garamond', serif;
-    color: #1b0602;
+    color: #fff;
     font-size: 0.88em;
-    padding-left: 0;
+    padding-left: 1em;
     margin: 1em 0;
 }
 
@@ -70,17 +54,12 @@ section {
     padding-left: 1em;
 }
 
-.bio h2 {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
 /* Imagery */
 .profile-pic {
     height: auto;
     float: left;
-    max-width: 10em;
-    border-radius: 8%;
+    max-width: 11em;
+    border-radius: 5%;
 }
 
 /* Navigation */
@@ -103,7 +82,7 @@ aside nav {
 /*12px / 16px = 0.75em*/
 a {
     color: #ed852d;
-    font-family: 'Gentium Basic', serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 0.75em;
     padding: 0.1875em;
     margin: auto;
@@ -128,7 +107,7 @@ aside img {
 /* Icons */
 
 footer {
-    border-top: .1em black solid;
+    border-top: .1em #816565 solid;
     position: relative;
     bottom: 0;
     padding: 1em;
@@ -139,9 +118,13 @@ footer {
 /*12px / 16px = 0.75em*/
 footer .icon {
     height: auto;
-    width: 0.8em;
+    width: 0.9em;
     margin-right: 0;
     align-self: center;
+}
+
+footer .user {
+    width: 1.2em;
 }
 
 /* Headings */
@@ -158,10 +141,10 @@ h1 {
 }
 
 h2 { 
-    font-family: 'Courgette', cursive;
+    font-family: 'Dosis', sans-serif;
     color: #ed852d;
     margin: 0;
-    padding: .25em 0;
+    padding: .5em 0 0;
 }
 
 h3 {
@@ -173,7 +156,7 @@ h4, label, input, textarea {
     font-family: 'Gentium Basic', serif;
     color: #385a65;
     margin-bottom: 0;
-    padding-top: 1%;
+    padding-top: 3%;
 }
 
 /* Lists */
@@ -183,28 +166,8 @@ ul {
 
 li {
     font-family: 'Cormorant Garamond', serif;
-    color: #1b0602;
+    color: #fff;
     font-size: 0.875em;
-}
-
-/*Homepage*/
-.homepage p {
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    padding: 2em;
-}
-
-logo img {
-    position: absolute;
-    top: .5em;
-    right: 0;
-    height: 3em;
-    width: 3em;
-    padding: .5em;
-    
-    line-height: .8;
-    border-radius: 50%;
 }
 
 /*Portfolio*/
@@ -221,18 +184,18 @@ figure {
     flex: 1 0 auto;
 }
 
-/* Specific Gallery Styling. Have Fun! */
 figure img {
-    max-width: 100%;
+    max-width: 98%;
     max-height: 90vh;
-    border: none;
+    border: transparent .35em solid;
+    
+    transition: border .25s;
 }
 
 figure img:hover,
 figure img:active,
 figure img:focus {
     border: #f7d26d .35em solid;
-    transition: border .25s;
 }
 
 figure p {
@@ -248,9 +211,8 @@ figure p {
 /* hide  */
 .overlay {
     display: none;
-
-    /* Overlay Styling   */
-    background: #816565;
+    
+    background: rgba(56,90,101,.8);
     width:100%;
     height: 100%;
     position:absolute;
@@ -260,7 +222,6 @@ figure p {
 
 /* show */
 .overlay:target {
-    /* Flexbox Vertical & Horizontal Centering */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -269,9 +230,11 @@ figure p {
 
 /* Close Button  */
 .overlay a {
+    display: block;
     color: #fff;
     text-decoration: none;
     font-size: 1em;
+    margin: auto 0;
 }
 
 /* Contact Form */
@@ -282,8 +245,7 @@ figure p {
 }
 
 .contact main div {
-    background: url(../img/dark_wood.png);
-    padding: 2em;
+    padding: 1em;
     margin: 1em;
     width: 14em;
     align-self: center;
@@ -292,25 +254,30 @@ figure p {
 .contact div p {
     color: #fff;
     text-align: left;
-    margin: 1em;
     padding-bottom: .5em;
 }
 
-label,
+label {
+    display: block;
+    margin: .5em;
+}
+
 input,
 textarea {
     display: block;
     margin: .5em;
+    border: transparent solid;
 }
 
 /* Score: 0,0,1,1 */
 input[type=submit] {
     background: #816565;
-    border: none;
+    border: transparent solid;
     border-radius: .25em;
     color: #fff;
     padding: .5em;
     margin-top: 1em;
+    margin-bottom: .5em;
 }
 
 input:focus,
@@ -353,7 +320,7 @@ textarea:hover {
     }
     
     body aside {
-        padding-top: 1%;
+        padding-top: %;
     }
     
     .desktop,
@@ -369,9 +336,10 @@ textarea:hover {
 
 /* Laptop Tablet*/
 @media screen and ( max-width: 48em ) {
-
-    body {
-        font-size: .9em;
+    
+    .contact main div {
+        padding: 0em;
+        width: 12em;
     }
     
     .desktop,
@@ -404,12 +372,12 @@ textarea:hover {
         font-size: 0.1em;
     }
     
-    nav a {
-        padding: .35em;
+    h4 {
+        padding-top: 7%;
     }
     
-    .icon-home {
-        filter: brightness(10);
+    nav a {
+        padding: .35em;
     }
 
     .desktop,
