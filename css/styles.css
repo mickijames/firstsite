@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Dosis|Gentium+Basic|Great+Vibes|Kaushan+Script');
 
+* {
+    box-sizing: border-box;
+}
+
 .about header div {
     background: url(../img/mount-rainier-at-sunset-cloud-fire-by-alan-howe.jpg) center / cover;
 }
@@ -29,12 +33,12 @@ body {
     background: url(../img/dark_wood.png);
     align-content: center; 
     padding: 1% 25%;
+    font-size: .8em;
 }
 
 body p {
     font-family: 'Cormorant Garamond', serif;
     color: #fff;
-    font-size: 0.88em;
     padding-left: 1em;
     margin: 1em 0;
 }
@@ -174,12 +178,10 @@ ul {
 li {
     font-family: 'Cormorant Garamond', serif;
     color: #fff;
-    font-size: 0.875em;
 }
 
 /*Portfolio*/
 .portfolio main {
-    box-sizing: border-box;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -302,41 +304,34 @@ textarea:hover {
 @media screen and ( min-width: 90em ) {
 
     body {
-        max-width: 65%;
         padding: 0 25%;
-        font-size: 2.2em;
+        font-size: 1.5em;
     }
     
     body aside {
         padding-top: 1%;
     }
+
+}
+
+@media screen and ( max-width: 90em ) {
+
+    body {
+        padding: 0 15%;
+        font-size: 1em;
+    }
     
-    .tablet,
-    .mobile {
-        display: none;
+    body aside {
+        padding-top: .5%;
     }
 
 }
 
 /* Laptop */
-@media screen and ( max-width: 90em ) {
+@media screen and ( max-width: 64em ) {
 
     body {
-        padding: 0 15%;
-        font-size: 1.2em;
-    }
-    
-    body aside {
-        padding-top: %;
-    }
-    
-    .desktop,
-    .mobile {
-        display: none;
-    }
-
-    .tablet {
-        display: block;
+        font-size: .8em;
     }
 
 }
@@ -345,21 +340,12 @@ textarea:hover {
 @media screen and ( max-width: 48em ) {
     
     .contact main div {
-        padding: 0em;
+        padding: 0;
         width: 12em;
     }
     
     .profile-pic:hover {
         transform: none;
-    }
-    
-    .desktop,
-    .mobile {
-        display: none;
-    }
-
-    .tablet {
-        display: block;
     }
 
 }
@@ -370,7 +356,6 @@ textarea:hover {
 
     body {
         padding: 0 5%;
-        font-size: 1em;
     }
     
     .contact main div {
@@ -394,15 +379,6 @@ textarea:hover {
     
     nav a {
         padding: .35em;
-    }
-
-    .desktop,
-    .tablet {
-        display: none;
-    }
-
-    .mobile {
-        display: block;
     }
 
 }
