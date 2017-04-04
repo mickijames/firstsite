@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Dosis|Gentium+Basic|Great+Vibes|Kaushan+Script');
+
+@import 'normalize';
+@import 'portfolio';
+@import 'lightbox';
+@import 'contact';
+@import 'media-queries';
+
+
+* {
+    box-sizing: border-box;
+}
+
+.about header div {
+    background: url(../img/mount-rainier-at-sunset-cloud-fire-by-alan-howe.jpg) center / cover;
+}
+.portfolio header div {
+    background: url(../img/dreamcatcher.jpg) center / cover;
+}
+
+.contact header div {
+    background: url(../img/friendship.jpg) center / cover;
+}
+
+header {
+    position: relative;
+}
+
+header div {
+    height: 18em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -1em;
+    margin-bottom: 1em;
+}
+
+body {
+    background: black;
+    align-content: center; 
+    padding: 1% 25%;
+    font-size: 1em;
+}
+
+body p {
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
+    padding-left: 1em;
+    margin: 1em 0;
+}
+
+section {
+    padding: .5em 0;
+}
+
+/* Classes */
+.town, .jobs, dates {
+    font-style: italic;
+    padding-left: 0;
+    margin-bottom: -0.625em;
+}
+
+.education {
+    padding-left: 1em;
+}
+
+/* Imagery */
+.profile-pic {
+    height: auto;
+    float: left;
+    max-width: 11em;
+    border-radius: 5%;
+    
+    transform: scale(1);
+    transition: transform .5s;
+}
+
+.profile-pic:hover {
+    transform: scale(2);
+}
+
+/* Navigation */
+aside {
+    position: fixed;
+}
+
+aside nav {
+    position: relative;
+    float: left;
+    top: 0;
+    left: -4em;
+    margin-right: 1em;
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/*12px / 16px = 0.75em*/
+a {
+    color: #ed852d;
+    font-family: 'Dosis', sans-serif;
+    font-size: 0.75em;
+    padding: 0.1875em;
+    margin: auto;
+    text-decoration: none;
+}
+
+/* Active */
+a:hover {
+    color: #385a65;
+}
+
+a:active,
+a:focus {
+    background: #ed852d;
+    color: #385a65;
+}
+
+aside img {
+    width: 2.25em;
+}
+
+/* Icons */
+
+footer {
+    border-top: .1em #816565 solid;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+/*12px / 16px = 0.75em*/
+footer .icon {
+    height: auto;
+    width: 0.9em;
+    margin-right: 0;
+    align-self: center;
+}
+
+footer .user {
+    width: 1.2em;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    line-height: 25%;
+    margin-top: 1%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: 'Great Vibes', cursive;
+    margin: .8em;
+}
+
+h2 { 
+    font-family: 'Dosis', sans-serif;
+    color: #ed852d;
+    margin: 0;
+    padding: .5em 0 0;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #f7d26d;
+}
+
+h4, label, input, textarea {
+    font-family: 'Gentium Basic', serif;
+    color: #385a65;
+    margin-bottom: 0;
+}
+
+.about h4 {
+    padding-top: 1.1em;
+}
+
+/* Lists */
+ul {
+    padding-left: 2em;
+}
+
+li {
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
+}

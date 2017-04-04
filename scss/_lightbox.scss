@@ -1,0 +1,29 @@
+/* Lightbox Overlay */
+/* hide  */
+.overlay {
+    display: none;
+    
+    background: rgba(56,90,101,.8);
+    position:absolute;
+    top:0;
+    left:0;
+    padding: 1em;
+    width:100%;
+}
+
+/* show */
+.overlay:target {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+}
+
+/* Close Button  */
+.overlay a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    margin: auto 0;
+}

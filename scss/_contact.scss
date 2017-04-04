@@ -1,0 +1,57 @@
+/* Contact Form */
+.contact {
+    
+    div p {
+        color: #fff;
+        text-align: left;
+        padding-left: 0;
+        padding-bottom: .5em;
+    }
+    
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    
+        div {
+            padding: 1em;
+            margin: 1em;
+            width: 14em;
+            align-self: center;
+        }
+    }
+}
+
+label {
+    display: block;
+    margin: .5em;
+}
+
+input,
+textarea {
+    display: block;
+    margin: .5em;
+    border: transparent solid;
+}
+
+/* Score: 0,0,1,1 */
+input[type=submit] {
+    background: #816565;
+    border: transparent solid;
+    border-radius: .25em;
+    color: #fff;
+    padding: .5em;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+input:focus,
+textarea:focus {
+    background: #ed852d;
+    transition: background .5s;
+}
+
+input:hover,
+textarea:hover {
+    border: #ed852d solid;
+}

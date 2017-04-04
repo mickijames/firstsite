@@ -1,0 +1,68 @@
+/* 4k Desktop */
+@media screen and ( min-width: 90.00000000001em ) {
+
+    body {
+        padding: 0 25%;
+        font-size: 1.8em;
+    }
+    
+    body aside {
+        padding-top: 1%;
+    }
+
+}
+
+@media screen and ( max-width: 90em ) {
+
+    body {
+        padding: 0 15%;
+    }
+    
+    body aside {
+        padding-top: .5%;
+    }
+
+}
+
+/* Laptop Tablet*/
+@media screen and ( max-width: 48em ) {
+    
+    .contact main div {
+        padding: 0;
+        width: 12em;
+    }
+    
+    .profile-pic:hover {
+        transform: none;
+    }
+
+}
+
+
+/* Mobile */
+@media screen and ( max-width: 30em ) {
+
+    body {
+        padding: 0 5%;
+    }
+    
+    .contact main div {
+        width: 14em;
+    }
+    
+    header div {
+        margin: 0 -2em;
+    }
+    
+    aside nav {
+        position: relative;
+        flex-direction: row;
+        padding: 0 3.125em;
+        font-size: 1em;
+    }
+    
+    nav a {
+        padding: .35em;
+    }
+
+}
