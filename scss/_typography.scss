@@ -1,0 +1,44 @@
+/* Headings */
+h1, h2, h3, h4 {
+    line-height: 25%;
+    margin-top: 1%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: 'Great Vibes', cursive;
+    margin: .8em;
+}
+
+h2 { 
+    font-family: 'Dosis', sans-serif;
+    color: #ed852d;
+    margin: 0;
+    padding: .5em 0 0;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #f7d26d;
+}
+
+h4, label, input, textarea {
+    font-family: 'Gentium Basic', serif;
+    color: #385a65;
+    margin-bottom: 0;
+}
+
+.about h4 {
+    padding-top: 1.1em;
+}
+
+/* Lists */
+ul {
+    padding-left: 2em;
+}
+
+li {
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
+}

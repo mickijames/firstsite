@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Dosis|Gentium+Basic|Great+Vibes|Kaushan+Script');
 
 @import 'normalize';
-@import 'portfolio';
+@import 'typography';
 @import 'lightbox';
 @import 'contact';
 @import 'media-queries';
@@ -11,43 +11,41 @@
     box-sizing: border-box;
 }
 
-.about header div {
-    background: url(../img/mount-rainier-at-sunset-cloud-fire-by-alan-howe.jpg) center / cover;
+.about {
+    background: url(../img/beach.jpg) center / cover;
 }
-.portfolio header div {
-    background: url(../img/dreamcatcher.jpg) center / cover;
+.portfolio {
+    background: url(../img/mountain-sunset.jpg) center / cover;
 }
 
-.contact header div {
-    background: url(../img/friendship.jpg) center / cover;
+.contact {
+    background: url(../img/landscape.jpg) center / cover;
 }
 
 header {
     position: relative;
-}
-
-header div {
-    height: 18em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 -1em;
-    margin-bottom: 1em;
+    
+    div {
+        height: 12em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 -1em 1em;
+    }
 }
 
 body {
-    background: black;
     align-content: center; 
     padding: 1% 25%;
     font-size: 1em;
-}
-
-body p {
-    font-family: 'Cormorant Garamond', serif;
-    color: #fff;
-    padding-left: 1em;
-    margin: 1em 0;
+    
+    p {
+        font-family: 'Cormorant Garamond', serif;
+        color: #fff;
+        padding-left: 1em;
+        margin: 1em 0;
+    }
 }
 
 section {
@@ -83,18 +81,22 @@ section {
 /* Navigation */
 aside {
     position: fixed;
-}
-
-aside nav {
-    position: relative;
-    float: left;
-    top: 0;
-    left: -4em;
-    margin-right: 1em;
     
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    nav {
+        position: relative;
+        float: left;
+        top: 0;
+        left: -4em;
+        margin-right: 1em;
+
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    img {
+        width: 2.25em;
+    }
 }
 
 /*12px / 16px = 0.75em*/
@@ -118,10 +120,6 @@ a:focus {
     color: #385a65;
 }
 
-aside img {
-    width: 2.25em;
-}
-
 /* Icons */
 
 footer {
@@ -141,49 +139,4 @@ footer .icon {
 
 footer .user {
     width: 1.2em;
-}
-
-/* Headings */
-h1, h2, h3, h4 {
-    line-height: 25%;
-    margin-top: 1%;
-}
-
-h1 {
-    color: #fff;
-    font-size: 2.5em;
-    font-family: 'Great Vibes', cursive;
-    margin: .8em;
-}
-
-h2 { 
-    font-family: 'Dosis', sans-serif;
-    color: #ed852d;
-    margin: 0;
-    padding: .5em 0 0;
-}
-
-h3 {
-    font-family: 'Kaushan Script', cursive;
-    color: #f7d26d;
-}
-
-h4, label, input, textarea {
-    font-family: 'Gentium Basic', serif;
-    color: #385a65;
-    margin-bottom: 0;
-}
-
-.about h4 {
-    padding-top: 1.1em;
-}
-
-/* Lists */
-ul {
-    padding-left: 2em;
-}
-
-li {
-    font-family: 'Cormorant Garamond', serif;
-    color: #fff;
 }
