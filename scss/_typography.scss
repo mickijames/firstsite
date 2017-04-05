@@ -12,21 +12,38 @@ h1 {
 }
 
 h2 { 
-    font-family: 'Dosis', sans-serif;
-    color: #ed852d;
+    font-family: 'Kaushan Script', cursive;
+    color: #f7d26d;
     margin: 0;
     padding: .5em 0 0;
 }
 
-h3 {
-    font-family: 'Kaushan Script', cursive;
-    color: #f7d26d;
-}
+//h3 {
+//    font-family: 'Dosis', sans-serif;
+//    color: #ed852d;
+//    font-family: 'Exo 2', sans-serif;
+//    font-family: 'Asap', sans-serif;
+//    font-family: 'Varela Round', sans-serif;
+//    font-family: 'Cuprum', sans-serif;
+//    font-family: 'Alegreya', serif;
+//}
 
 h4, label, input, textarea {
-    font-family: 'Gentium Basic', serif;
+    font-family: 'Asap', sans-serif;
     color: #385a65;
     margin-bottom: 0;
+}
+
+body {
+    p, li {
+        font-family: 'Cormorant Garamond', serif;
+        color: #fff;
+    }
+    
+    p {
+        padding-left: 1em;
+        margin: 1em 0;
+    }
 }
 
 .about h4 {
@@ -36,9 +53,4 @@ h4, label, input, textarea {
 /* Lists */
 ul {
     padding-left: 2em;
-}
-
-li {
-    font-family: 'Cormorant Garamond', serif;
-    color: #fff;
 }
