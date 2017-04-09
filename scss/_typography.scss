@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya|Asap|Cuprum|Exo+2|Varela+Round);
+@import url('https://fonts.googleapis.com/css?family=BioRhyme|Cookie|Courgette|Macondo|Marck+Script|Rochester|Satisfy|Tangerine');
+
 /* Headings */
 h1, h2, h3, h4 {
     line-height: 25%;
@@ -19,18 +22,25 @@ h2 {
 }
 
 //h3 {
-//    font-family: 'Dosis', sans-serif;
 //    color: #ed852d;
 //    font-family: 'Exo 2', sans-serif;
 //    font-family: 'Asap', sans-serif;
 //    font-family: 'Varela Round', sans-serif;
-//    font-family: 'Cuprum', sans-serif;
 //    font-family: 'Alegreya', serif;
+//
+//    font-family: 'Macondo', cursive;
+//    font-family: 'BioRhyme', serif;
+//    font-family: 'Satisfy', cursive;
+//    font-family: 'Cookie', cursive;
+//    font-family: 'Courgette', cursive;
+//    font-family: 'Tangerine', cursive;
+//    font-family: 'Rochester', cursive;
+//    font-family: 'Marck Script', cursive;
 //}
 
 h4, label, input, textarea {
-    font-family: 'Asap', sans-serif;
-    color: #385a65;
+    font-family: 'Courgette', cursive;
+    color: #ed852d;//#385a65;
     margin-bottom: 0;
 }
 
@@ -38,6 +48,7 @@ body {
     p, li {
         font-family: 'Cormorant Garamond', serif;
         color: #fff;
+        font-size: 1.1em;
     }
     
     p {

@@ -2,7 +2,6 @@
 
 @import 'normalize';
 @import 'typography';
-@import 'lightbox';
 @import 'contact';
 @import 'media-queries';
 
@@ -12,14 +11,14 @@
 }
 
 .about {
-    background: url(../img/beach.jpg) center / cover;
+    background: url(../img/beach2.jpg) 80% / cover no-repeat;
 }
 .portfolio {
-    background: url(../img/mountain-sunset.jpg) center / cover;
+    background: url(../img/mountain-sunset.jpg) center / cover no-repeat;
 }
 
 .contact {
-    background: url(../img/landscape.jpg) center / cover;
+    background: url(../img/landscape.jpg) center / cover no-repeat;
 }
 
 header {
