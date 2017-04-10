@@ -196,23 +196,13 @@
 		},
 	"\/img\/landscape.jpg": {
 		"ft": 16384,
-		"iS": 2754128,
+		"iS": 763016,
 		"oA": 0,
 		"oAP": "\/img\/landscape.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 71
-		},
-	"\/img\/mountain-sunset.jpg": {
-		"ft": 16384,
-		"iS": 1732996,
-		"oA": 0,
-		"oAP": "\/img\/mountain-sunset.jpg",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 74
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/senior.jpg": {
 		"ft": 16384,
