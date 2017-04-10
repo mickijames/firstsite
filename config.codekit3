@@ -157,9 +157,9 @@
 		"oA": 0,
 		"oAP": "\/img\/beach.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 70
 		},
 	"\/img\/iconmonstr-home-6-240 (1).png": {
 		"ft": 32768,
@@ -167,10 +167,10 @@
 		"oA": 0,
 		"oAP": "\/img\/iconmonstr-home-6-240 (1).png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 70
 		},
 	"\/img\/iconmonstr-picture-5-240.png": {
 		"ft": 32768,
@@ -178,10 +178,10 @@
 		"oA": 0,
 		"oAP": "\/img\/iconmonstr-picture-5-240.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 70
 		},
 	"\/img\/iconmonstr-user-29-240.png": {
 		"ft": 32768,
@@ -189,8 +189,8 @@
 		"oA": 0,
 		"oAP": "\/img\/iconmonstr-user-29-240.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -200,9 +200,9 @@
 		"oA": 0,
 		"oAP": "\/img\/landscape.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 71
 		},
 	"\/img\/mountain-sunset.jpg": {
 		"ft": 16384,
@@ -210,9 +210,9 @@
 		"oA": 0,
 		"oAP": "\/img\/mountain-sunset.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 74
 		},
 	"\/img\/senior.jpg": {
 		"ft": 16384,
@@ -220,9 +220,9 @@
 		"oA": 0,
 		"oAP": "\/img\/senior.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 79
 		},
 	"\/index.html": {
 		"ft": 8192,
