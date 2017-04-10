@@ -3,6 +3,7 @@
     
     header div {
         margin: 0;
+        height: 7em;
         
         h1 {
             margin: 2em 0 0;
@@ -10,23 +11,17 @@
     }
     
     div p {
-        color: #fff;
+        color: $primary-color;
         text-align: left;
         padding-left: 0;
         padding-bottom: .5em;
     }
     
-    main {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-    
-        div {
+    main div {
             padding: 1em;
             margin: 1em;
             width: 14em;
             align-self: center;
-        }
     }
 }
 
@@ -40,14 +35,16 @@ textarea {
     display: block;
     margin: .5em;
     border: transparent solid;
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 /* Score: 0,0,1,1 */
 input[type=submit] {
-    background: #816565;
+    background: $purple;
     border: transparent solid;
     border-radius: .25em;
-    color: #fff;
+    color: $primary-color;
     padding: .5em;
     margin-top: 1em;
     margin-bottom: .5em;
@@ -55,11 +52,11 @@ input[type=submit] {
 
 input:focus,
 textarea:focus {
-    background: #ed852d;
+    background: $yellow;
     transition: background .5s;
 }
 
 input:hover,
 textarea:hover {
-    border: #ed852d solid;
+    border: $second-color solid;
 }

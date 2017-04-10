@@ -1,47 +1,27 @@
-@import url(https://fonts.googleapis.com/css?family=Alegreya|Asap|Cuprum|Exo+2|Varela+Round);
-@import url('https://fonts.googleapis.com/css?family=BioRhyme|Cookie|Courgette|Macondo|Marck+Script|Rochester|Satisfy|Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Great+Vibes|Kaushan+Script|Dosis|Satisfy');
 
 /* Headings */
 h1, h2, h3, h4 {
-    line-height: 25%;
-    margin-top: 1%;
+    margin: 0;
 }
 
 h1 {
     color: #fff;
-    font-size: 2.5em;
     font-family: 'Great Vibes', cursive;
     margin: .8em;
 }
 
 h2 { 
     font-family: 'Kaushan Script', cursive;
-    color: #f7d26d;
-    margin: 0;
+    color: $blue;
     padding: .5em 0 0;
 }
 
-//h3 {
-//    color: #ed852d;
-//    font-family: 'Exo 2', sans-serif;
-//    font-family: 'Asap', sans-serif;
-//    font-family: 'Varela Round', sans-serif;
-//    font-family: 'Alegreya', serif;
-//
-//    font-family: 'Macondo', cursive;
-//    font-family: 'BioRhyme', serif;
-//    font-family: 'Satisfy', cursive;
-//    font-family: 'Cookie', cursive;
-//    font-family: 'Courgette', cursive;
-//    font-family: 'Tangerine', cursive;
-//    font-family: 'Rochester', cursive;
-//    font-family: 'Marck Script', cursive;
-//}
-
 h4, label, input, textarea {
-    font-family: 'Courgette', cursive;
-    color: #ed852d;//#385a65;
-    margin-bottom: 0;
+    font-family: 'Satisfy', cursive;
+    color: $second-color;
+    margin: .25em 0 0;
+    font-size: 1.2em;
 }
 
 body {
@@ -55,10 +35,6 @@ body {
         padding-left: 1em;
         margin: 1em 0;
     }
-}
-
-.about h4 {
-    padding-top: 1.1em;
 }
 
 /* Lists */

@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|Dosis|Gentium+Basic|Great+Vibes|Kaushan+Script");
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Alegreya|Asap|Cuprum|Exo+2|Varela+Round);
-@import url("https://fonts.googleapis.com/css?family=BioRhyme|Cookie|Courgette|Macondo|Marck+Script|Rochester|Satisfy|Tangerine");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|Great+Vibes|Kaushan+Script|Dosis|Satisfy");
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -166,25 +164,23 @@ template {
   display: none; }
 
 h1, h2, h3, h4 {
-  line-height: 25%;
-  margin-top: 1%; }
+  margin: 0; }
 
 h1 {
   color: #fff;
-  font-size: 2.5em;
   font-family: 'Great Vibes', cursive;
   margin: .8em; }
 
 h2 {
   font-family: 'Kaushan Script', cursive;
-  color: #f7d26d;
-  margin: 0;
+  color: #385a65;
   padding: .5em 0 0; }
 
 h4, label, input, textarea {
-  font-family: 'Courgette', cursive;
+  font-family: 'Satisfy', cursive;
   color: #ed852d;
-  margin-bottom: 0; }
+  margin: .25em 0 0;
+  font-size: 1.2em; }
 
 body p, body li {
   font-family: 'Cormorant Garamond', serif;
@@ -195,14 +191,12 @@ body p {
   padding-left: 1em;
   margin: 1em 0; }
 
-.about h4 {
-  padding-top: 1.1em; }
-
 ul {
   padding-left: 2em; }
 
 .contact header div {
-  margin: 0; }
+  margin: 0;
+  height: 7em; }
 
 .contact header div h1 {
   margin: 2em 0 0; }
@@ -212,18 +206,6 @@ ul {
   text-align: left;
   padding-left: 0;
   padding-bottom: .5em; }
-
-.contact main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
 
 .contact main div {
   padding: 1em;
@@ -240,7 +222,9 @@ label {
 input, textarea {
   display: block;
   margin: .5em;
-  border: transparent solid; }
+  border: transparent solid;
+  color: #000;
+  font-family: 'Cormorant Garamond', serif; }
 
 input[type=submit] {
   background: #816565;
@@ -252,57 +236,97 @@ input[type=submit] {
   margin-bottom: .5em; }
 
 input:focus, textarea:focus {
-  background: #ed852d;
+  background: #f7d26d;
   -webkit-transition: background .5s;
   transition: background .5s; }
 
 input:hover, textarea:hover {
   border: #ed852d solid; }
 
-@media screen and (min-width: 90em) {
-  body {
-    padding: 0 25%;
-    font-size: 1.8em; }
-  body aside {
-    padding-top: 1%; } }
-
-@media screen and (max-width: 90em) {
-  body {
-    padding: 0 15%; }
-  body aside {
-    padding-top: .5%; } }
-
-@media screen and (max-width: 48em) {
-  .contact main div {
-    padding: 0;
-    width: 12em; }
-  .profile-pic:hover {
-    -webkit-transform: none;
-            transform: none; } }
-
-@media screen and (max-width: 30em) {
-  body {
-    padding: 0 5%; }
-  .contact main div {
-    width: 14em; }
-  header div {
-    margin: 0 -2em; }
+@media screen and (min-width: 20em) {
+  body:before {
+    background: yellow;
+    content: "Mobile Size"; }
+  body h1 {
+    font-size: 2em; }
+  body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 2em;
+    width: 95%; }
+  body main section {
+    padding: 0 1em .5em; }
+  body main h2, body main h4 {
+    font-size: 1.25em; }
+  body main p, body main li {
+    font-weight: 700;
+    font-size: 1em; }
   aside nav {
     position: relative;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding: 0 3.125em;
+    padding: 0 4.25em;
     font-size: 1em; }
-  nav a {
-    padding: .35em; } }
+  aside nav a {
+    padding: .35em; }
+  .profile-pic:hover {
+    -webkit-transform: none;
+            transform: none; } }
+
+@media screen and (min-width: 48em) {
+  body:before {
+    background: yellow;
+    content: "Tablet Size"; }
+  body {
+    padding: 1% 5%; }
+  body h1 {
+    font-size: 2.5em; }
+  body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .contact main div {
+    padding: 0;
+    width: 12em; } }
+
+@media screen and (min-width: 80em) {
+  body:before {
+    background: yellow;
+    content: "Desktop Size"; }
+  body {
+    padding: 0 15%; }
+  body aside {
+    padding-top: .5%; }
+  .profile-pic {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s; }
+  .profile-pic:hover {
+    -webkit-transform: scale(2);
+            transform: scale(2); } }
 
 * {
   box-sizing: border-box; }
 
 .about {
-  background: url(../img/beach2.jpg) 80%/cover no-repeat; }
+  background: url(../img/beach.jpg) 15%/cover no-repeat; }
 
 .portfolio {
   background: url(../img/mountain-sunset.jpg) center/cover no-repeat; }
@@ -330,15 +354,6 @@ header div {
           align-items: center;
   margin: 0 -1em 1em; }
 
-body {
-  -ms-flex-line-pack: center;
-      align-content: center;
-  padding: 1% 25%;
-  font-size: 1em; }
-
-section {
-  padding: .5em 0; }
-
 .town, .jobs, dates {
   font-style: italic;
   padding-left: 0;
@@ -351,17 +366,7 @@ section {
   height: auto;
   float: left;
   max-width: 11em;
-  border-radius: 5%;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: -webkit-transform .5s;
-  transition: -webkit-transform .5s;
-  transition: transform .5s;
-  transition: transform .5s, -webkit-transform .5s; }
-
-.profile-pic:hover {
-  -webkit-transform: scale(2);
-          transform: scale(2); }
+  border-radius: 5%; }
 
 aside {
   position: fixed; }
@@ -387,22 +392,19 @@ aside img {
   width: 2.25em; }
 
 a {
-  color: #ed852d;
-  font-family: 'Dosis', sans-serif;
+  color: #fff;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 0.75em;
   padding: 0.1875em;
   margin: auto;
   text-decoration: none; }
 
-a:hover {
-  color: #385a65; }
-
-a:active, a:focus {
+a:hover, a:active, a:focus {
   background: #ed852d;
   color: #385a65; }
 
 footer {
-  border-top: .1em #816565 solid;
+  border-top: 0.1em #fff solid;
   padding: 1em;
   display: -webkit-box;
   display: -ms-flexbox;

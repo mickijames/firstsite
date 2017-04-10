@@ -161,16 +161,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/beach2.jpg": {
-		"ft": 16384,
-		"iS": 356183,
-		"oA": 0,
-		"oAP": "\/img\/beach2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/iconmonstr-home-6-240 (1).png": {
 		"ft": 32768,
 		"iS": 1508,
@@ -309,6 +299,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/scss\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/scss\/styles-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/scss\/styles.scss": {
 		"aP": 0,

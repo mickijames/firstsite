@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Dosis|Gentium+Basic|Great+Vibes|Kaushan+Script');
+$primary-color: #fff;
+$second-color: #ed852d;
+$blue: #385a65;
+$yellow: #f7d26d;
+$purple: #816565;
 
 @import 'normalize';
 @import 'typography';
 @import 'contact';
 @import 'media-queries';
 
-
 * {
     box-sizing: border-box;
 }
 
 .about {
-    background: url(../img/beach2.jpg) 80% / cover no-repeat;
+    background: url(../img/beach.jpg) 15% / cover no-repeat;
 }
 .portfolio {
     background: url(../img/mountain-sunset.jpg) center / cover no-repeat;
@@ -34,14 +37,11 @@ header {
     }
 }
 
-body {
-    align-content: center; 
-    padding: 1% 25%;
-    font-size: 1em;
-}
-
-section {
-    padding: .5em 0;
+main {
+    
+    section {
+//        padding: 1em;
+    }
 }
 
 /* Classes */
@@ -61,13 +61,6 @@ section {
     float: left;
     max-width: 11em;
     border-radius: 5%;
-    
-    transform: scale(1);
-    transition: transform .5s;
-}
-
-.profile-pic:hover {
-    transform: scale(2);
 }
 
 /* Navigation */
@@ -93,8 +86,8 @@ aside {
 
 /*12px / 16px = 0.75em*/
 a {
-    color: #ed852d;
-    font-family: 'Dosis', sans-serif;
+    color: $primary-color;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 0.75em;
     padding: 0.1875em;
     margin: auto;
@@ -102,20 +95,17 @@ a {
 }
 
 /* Active */
-a:hover {
-    color: #385a65;
-}
-
+a:hover,
 a:active,
 a:focus {
-    background: #ed852d;
-    color: #385a65;
+    background: $second-color;
+    color: $blue;
 }
 
 /* Icons */
 
 footer {
-    border-top: .1em #816565 solid;
+    border-top: .1em $primary-color solid;
     padding: 1em;
     display: flex;
     justify-content: center;
