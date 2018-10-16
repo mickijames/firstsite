@@ -4,19 +4,19 @@
 
 /* Color Palette */
 .color-1 {
-    background: #1b0602;
+    background: #003200;
 }
 .color-2 {
-    background: #385a65;
+    background: #009900;
 }
 .color-3 {
-    background: #816565;
+    background: #00ff00;
 }
 .color-4 {
-    background: #ed852d;
+    background: #fff000;
 }
 .color-5 {
-    background: #f7d26d;
+    background: #fff;
 }
 
 /* Textures or Patterns*/
@@ -45,56 +45,54 @@
 /* Navigation */
 a:link,
 a:visited {
-    color: #816565;
+    color: #003200;
 }
 
 a:focus {
-    background: #ed852d;
+    background: #00ff00;
 }
 
 a:hover {
-    background: #f7d26d;
+    background: #fff000;
     margin-left: 4px;
 }
 
 a:active {
-    background: #385a65;
+    background: #00ff00;
 }
 
 button {
-    background: #385a65;
-    color: #ed852d;
+    background: #003200;
+    color: #00ff00;
 }
 
 /* Typography */
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamondfamily=Gentium+Basicfamily=Great+Vibesfamily=Kaushan+Scriptfamily=Courgette');
-
 a {
-    font-family: 'Gentium Basic', serif;
+    font-family: 'Courier New', serif;
 }
 
 h1 {
-    font-family: 'Great Vibes', cursive;
-    color: #385a65;
+    font-family: 'Consolas', sans-serif;
+    color: #00ff00;
 }
 
 h2 { 
-    font-family: 'Courgette', cursive;
-    color: #ed852d;
+    font-family: 'Courier New', serif;
+    color: #009900;
 }
 
 h3 {
-    font-family: 'Kaushan Script', cursive;
-    color: #f7d26d;
+    font-family: 'Gill Sans', sans-serif;
+    color: #fff000;
 }
 
 h4 {
     font-style: bold;
     font-family: 'Gentium Basic', serif;
-    color: #1b0602;
+    color: #000;
 }
 
 p {
-    font-family: 'Cormorant Garamond', serif;
-    color: #1b0602;
+    font-family: 'Andale Mono', serif;
+    color: #003200;
 }

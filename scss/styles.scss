@@ -1,8 +1,8 @@
-$primary-color: #fff;
-$second-color: #ed852d;
-$blue: #385a65;
-$yellow: #f7d26d;
-$purple: #816565;
+$primary-color: #003200;
+$second-color: #009900;
+$lime: #00ff00;
+$yellow: #fff000;
+$green: #009900;
 
 @import 'normalize';
 @import 'typography';
@@ -14,11 +14,11 @@ $purple: #816565;
 }
 
 .about {
-    background: url(../img/beach.jpg) 15% / cover no-repeat;
+    background: #fff;//url(../img/beach.jpg) 15% / cover no-repeat;
 }
 
 .contact {
-    background: url(../img/landscape.jpg) center / cover no-repeat;
+    background: #fff;//url(../img/landscape.jpg) center / cover no-repeat;
 }
 
 header {
@@ -34,12 +34,12 @@ header {
     }
 }
 
-main {
+/*main {
     
     section {
 //        padding: 1em;
     }
-}
+}*/
 
 /* Classes */
 .town, .jobs, dates {
@@ -81,22 +81,12 @@ aside {
     }
 }
 
-/*12px / 16px = 0.75em*/
-a {
-    color: $primary-color;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 0.75em;
-    padding: 0.1875em;
-    margin: auto;
-    text-decoration: none;
-}
-
 /* Active */
 a:hover,
 a:active,
 a:focus {
     background: $second-color;
-    color: $blue;
+    color: $lime;
 }
 
 /* Icons */
