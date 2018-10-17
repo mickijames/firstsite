@@ -1,0 +1,53 @@
+/* Headings */
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+h1 {
+    color: $green;
+    font-family: 'Courier New', serif;
+    margin: .8em;
+}
+
+h2 { 
+    font-family: 'Gill Sans', sans-serif;
+    color: $lime;
+    padding: .5em 0 0;
+}
+
+h4, label, input, textarea {
+    font-family: 'Consolas', sans-serif;
+    color: $second-color;
+    margin: .25em 0 0;
+    font-size: 1.2em;
+}
+
+body {
+    p, li {
+        font-family: 'Andale Mono', serif;
+        color: $primary-color;
+        font-size: 1.1em;
+    }
+    
+    p {
+        padding-left: 1em;
+        margin: 1em 0;
+    }
+}
+
+/* Lists */
+ul {
+    padding-left: 2em;
+}
+
+/* Links */
+
+/*12px / 16px = 0.75em*/
+a {
+    color: $primary-color;
+    font-family: 'Consolas', sans-serif;
+    font-size: 0.75em;
+    padding: 0.1875em;
+    margin: auto;
+    text-decoration: none;
+}
